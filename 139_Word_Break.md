@@ -2,7 +2,7 @@
 
 时间O(N^2), 空间O(N)。
 
-```
+```cpp
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
