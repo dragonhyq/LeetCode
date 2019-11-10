@@ -148,6 +148,7 @@ private:
  * obj->put(key,value);
  */
 
+/*
  int main() {
     LRUCache cache(2);
     cache.get(2);
@@ -159,3 +160,4 @@ private:
     cache.get(2);
     return 0;
  }
+ */
