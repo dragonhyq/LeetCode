@@ -17,7 +17,7 @@ NOTE: input types have been changed on April 15, 2019. Please reset to default c
 ```
 如果`intervals`没有任何结构的话，对于每一个interval，都得和其他每一个interval比，看是否有重叠。所以需要给`interval`排序，然后就可以从前往后扫描了。
 
-```
+```cpp
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
