@@ -17,14 +17,6 @@ public:
     }
     
     int get(int key) {
-        std::cout << "get " << key << std::endl;
-        std::cout << "before" << std::endl;
-        Node *temp = prehead -> next;
-        while (temp != NULL) {
-            std::cout << "(" << temp->key << " : " << temp->value << "), ";
-            temp = temp -> next;
-        }
-        std::cout << std::endl;
         if (map.find(key) == map.end()) {
             return -1;
         }    
@@ -32,27 +24,11 @@ public:
         if (node != end) {
             delete_node(node);
             insert_to_back(node);
-        }
-        std::cout << "after" << std::endl;
-        temp = prehead -> next;
-        while (temp != NULL) {
-            std::cout << "(" << temp->key << " : " << temp->value << "), ";
-            temp = temp -> next;
-        }
-        std::cout << std::endl;
-        
+        }        
         return node->value;
     }
     
     void put(int key, int value) {
-        std::cout << "put " << key << " " << value << std::endl;
-        std::cout << "before" << std::endl;
-        Node *temp = prehead -> next;
-        while (temp != NULL) {
-            std::cout << "(" << temp->key << " : " << temp->value << "), ";
-            temp = temp -> next;
-        }
-
         if (map.find(key) != map.end()) {
             update(key, value);
         }
@@ -64,14 +40,6 @@ public:
             insert_to_back(node);
             len++;
         }
-        
-        std::cout << "after" << std::endl;
-        temp = prehead -> next;
-        while (temp != NULL) {
-            std::cout << "(" << temp->key << " : " << temp->value << "), ";
-            temp = temp -> next;
-        }
-        std::cout << std::endl;
     }
 
     void update(int key, int value) {
@@ -86,13 +54,6 @@ public:
     
 
     void evict() {
-        std::cout << "before evicting" << std::endl;
-        Node *temp = prehead -> next;
-        while (temp != NULL) {
-            std::cout << "(" << temp->key << " : " << temp->value << "), ";
-            temp = temp -> next;
-        }
-        std::cout << std::endl;
         int key = prehead->next->key;
         std::cout << key << " evicted" << std::endl;
         map.erase(key);
@@ -106,14 +67,6 @@ public:
             node->next->pre = prehead;
         }
         len--;
-        
-        std::cout << "after evicting" << std::endl;
-        temp = prehead -> next;
-        while (temp != NULL) {
-            std::cout << "(" << temp->key << " : " << temp->value << "), ";
-            temp = temp -> next;
-        }
-        std::cout << std::endl;
         
     }
 
