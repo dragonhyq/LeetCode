@@ -15,7 +15,7 @@ Output: [[1,5]]
 Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 NOTE: input types have been changed on April 15, 2019. Please reset to default code definition to get new method signature.
 ```
-如果`intervals`没有任何结构的话，对于每一个interval，都得和其他每一个interval比，看是否有重叠。所以需要给`interval`排序，然后就可以从前往后扫描了。
+如果`intervals`没有任何结构的话，对于每一个interval，都得和其他每一个interval比，看是否有重叠。所以需要给`interval`排序，然后就可以从前往后扫描了。Bloomberg phone screen问了这个题。
 
 ```cpp
 class Solution {
