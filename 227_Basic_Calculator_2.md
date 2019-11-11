@@ -66,3 +66,34 @@ public:
     }
 };
 ```
+
+用Python写的话，用stack的时候稍微容易些，因为可以直接用list来代替。但是除法之后truncate to zero要注意，`a // b` 不是直接truncate to zero的。代码如下：
+
+```python
+class Solution:
+    def calculate(self, s: str) -> int:
+        num = 0
+        num_list = []
+        last_op = '+'
+        for i in range(len(s)):
+            if s[i].isdigit():
+                num = num * 10 + int(s[i])
+            if s[i] in '+-*/' or i == len(s) - 1:
+                if last_op == '+':
+                    num_list.append(num)
+                elif last_op == '-':
+                    num_list.append(-num)    
+                elif last_op == '*':
+                    num0 = num_list.pop()
+                    prod = num0 * num
+                    num_list.append(prod)
+                else:
+                    num0 = num_list.pop()
+                    quo = int(num0 / num) # truncate towards zero
+                    num_list.append(quo)
+                last_op = s[i]
+                num = 0
+            
+        return sum(num_list)
+
+```
