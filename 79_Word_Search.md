@@ -20,7 +20,7 @@ Given word = `"ABCB"`, return false.
 
 ---
 
-首先，在board里面找到word里面第一个字母，假设位置为`(i, j)`，然后做DFS看word剩下的部分是否能够找到，搜索是上下左右四个方向的。如果找不到，就回到`(i, j)`，继续找下一个和word首字母一样的字母。做DFS的时候，用一个`visited`矩阵记录走过的路。走完失败了的话，就把`visited`返回原来的值，就好像没有走过一样，也就是回溯。
+首先，在board里面找到word里面第一个字母，假设位置为`(i, j)`，然后做DFS看word剩下的部分是否能够找到，搜索是上下左右四个方向的。如果找不到，就回到`(i, j)`，继续找下一个和word首字母一样的字母。做DFS的时候，用一个`visited`矩阵记录走过的路。走完失败了的话，就把`visited`返回原来的值，就好像没有走过一样，也就是回溯。C++的if语句是按从左到右的顺序检查true/false的，所以把四个`search()`放在一起不会出现不必要的函数调用。
 
 ```cpp
 class Solution {
@@ -44,18 +44,13 @@ public:
         if (visited[i][j] == true) return false;
         if (word[index] != board[i][j]) return false;
         visited[i][j] = true;
-        bool up = search(word, i-1, j, index+1, board, visited);
-        if (up == true) return true;
-        bool down = search(word, i+1, j, index+1, board, visited);
-        if (down == true) return true;
-        bool left = search(word, i, j-1, index+1, board, visited);
-        if (left == true) return true;
-        bool right = search(word, i, j+1, index+1, board, visited);
-        if (right == true) return true;
+        // the if statement is evaluated from left to right, so no unnecessary function call
+        if (search(word, i-1, j, index+1, board, visited)
+            || search(word, i+1, j, index+1, board, visited)
+            || search(word, i, j-1, index+1, board, visited)
+            || search(word, i, j+1, index+1, board, visited)) return true;
         visited[i][j] = false;
         return false;
     }
-
-
 };
 ```
