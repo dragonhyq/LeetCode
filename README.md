@@ -11,6 +11,6 @@
 |146 | [LRU Cache](notes/146_LRU_Cache.md) | Medium |
 |150 | [Evaluate Reverse Polish Notation](notes/150_Evaluate_Reverse_Polish_Notation.md) | Medium |
 |155 | [Min Stack](notes/155_Min_Stack.md) | Easy |
-|210 | [Course Schedule ii](notes/210_Course_Schedule_2) | Medium |
+|210 | [Course Schedule ii](notes/210_Course_Schedule_2.md) | Medium |
 |227 | [Basic Calculator ii](notes/227_Basic_Calculator_2.md) | Medium |
 
