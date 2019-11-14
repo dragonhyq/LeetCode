@@ -1,4 +1,4 @@
-## Notes to LeetCode problems
+## Leetcode笔记
 
 |No.   | Name  | Level |
 |:---  | :---  |:--- |
