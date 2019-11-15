@@ -2,6 +2,7 @@
 
 |No.   | Name  | Level |
 |:---  | :---  |:--- |
+| 2 | [Add Two Numbers](notes/2_Add_Two_Numbers.md) | Medium |
 |19 | [Remove N-th Node From End of List](notes/19_Remove_Nth_Node_From_End_of_List.md) | Medium |
 | 34 | [First and Last Position of Element in Sorted Array](notes/34_First_and_Last_Position_of_Element_in_Sorted_Array.md) | Medium |
 | 55 | [Jump Game](notes/55_Jump_Game.md) | Medium |
