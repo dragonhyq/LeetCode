@@ -11,6 +11,7 @@
 | 56 | [Merge Intervals](notes/56_Merge_Intervals.md) | Medium |
 | 79 | [Word Search](notes/79_Word_Search.md) | Medium | 
 | 121 | [Best Time to Buy and Sell Stock](notes/121_Best_Time_to_Buy_and_Sell_Stock.md) | Easy |
+| 138 | [Copy List with Random Pointer](notes/138_CopyListwithRandomPointer.md) | Medium |
 |139 | [Word Break](notes/139_Word_Break.md) | Medium |
 |146 | [LRU Cache](notes/146_LRU_Cache.md) | Medium |
 |150 | [Evaluate Reverse Polish Notation](notes/150_Evaluate_Reverse_Polish_Notation.md) | Medium |
