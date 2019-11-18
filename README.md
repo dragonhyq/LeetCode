@@ -1,8 +1,12 @@
+## 总结性的文章
+[小白一路走来，连续刷题三年，谈谈我的算法学习经验](https://juejin.im/post/5cf5d203e51d45590a445afd)
+
 ## Leetcode笔记
 
 |No.   | Name  | Level |
 |:---  | :---  |:--- |
 | 2 | [Add Two Numbers](notes/2_Add_Two_Numbers.md) | Medium |
+|3 | [Longest Substring Without Repeating Characters](notes/3_LongestSubstringWithoutRepeatingCharacters.md) | Medium |
 |19 | [Remove N-th Node From End of List](notes/19_Remove_Nth_Node_From_End_of_List.md) | Medium |
 | 34 | [First and Last Position of Element in Sorted Array](notes/34_First_and_Last_Position_of_Element_in_Sorted_Array.md) | Medium |
 | 53 | [Maximum Subarray](notes/53_Maximum_Subarray.md) | Easy |
