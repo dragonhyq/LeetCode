@@ -1,5 +1,6 @@
 ## 总结性的文章
-[小白一路走来，连续刷题三年，谈谈我的算法学习经验](https://juejin.im/post/5cf5d203e51d45590a445afd)
+[小白一路走来，连续刷题三年，谈谈我的算法学习经验](https://juejin.im/post/5cf5d203e51d45590a445afd)\
+[「完结」CV算法工程师从入门到初级面试有多远，大概是25篇文章](https://www.toutiao.com/a6695518937334940174/)
 
 ## Leetcode笔记
 
