@@ -65,6 +65,7 @@ public:
 ```
 第二种方法，不使用map的，是把每一个新建立的node放在原始node的后面。
 > node1 -> node1_copy -> node2 -> node2_copy -> ...
+
 一个人画了个[图](https://leetcode.com/problems/copy-list-with-random-pointer/discuss/43491/A-solution-with-constant-space-complexity-O(1)-and-linear-time-complexity-O(N)/42652)，一看就清楚了。
 ```cpp
 class Solution {
