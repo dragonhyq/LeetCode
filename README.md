@@ -14,6 +14,7 @@
 | 54 | [Spiral Matrix](notes/54_Spiral_Matrix.md) | Medium |
 | 55 | [Jump Game](notes/55_Jump_Game.md) | Medium |
 | 56 | [Merge Intervals](notes/56_Merge_Intervals.md) | Medium |
+| 75 | [Sort Colors](notes/75_SortColors.md) | Medium |
 | 79 | [Word Search](notes/79_Word_Search.md) | Medium | 
 | 121 | [Best Time to Buy and Sell Stock](notes/121_Best_Time_to_Buy_and_Sell_Stock.md) | Easy |
 | 138 | [Copy List with Random Pointer](notes/138_CopyListwithRandomPointer.md) | Medium |
@@ -22,7 +23,8 @@
 |150 | [Evaluate Reverse Polish Notation](notes/150_Evaluate_Reverse_Polish_Notation.md) | Medium |
 |155 | [Min Stack](notes/155_Min_Stack.md) | Easy |
 |210 | [Course Schedule ii](notes/210_Course_Schedule_2.md) | Medium |
+| 215 | [Kth Largest Element in an Array](notes/215_KthLargestElementInAnArray.md) | Medium |
 |227 | [Basic Calculator ii](notes/227_Basic_Calculator_2.md) | Medium |
 |238 | [Product of Array Except Self](notes/238_Product_of_Array_Except_Self.md) | Medium |
 |322 | [Coin Change](notes/322_Coin_Change.md) | Medium |
-
+| 324 | [Wiggle Sort 2](notes/324_WiggleSort2.md) | Medium |
