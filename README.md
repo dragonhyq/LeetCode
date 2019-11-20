@@ -10,6 +10,7 @@
 |3 | [Longest Substring Without Repeating Characters](notes/3_LongestSubstringWithoutRepeatingCharacters.md) | Medium |
 |19 | [Remove N-th Node From End of List](notes/19_Remove_Nth_Node_From_End_of_List.md) | Medium |
 | 34 | [First and Last Position of Element in Sorted Array](notes/34_First_and_Last_Position_of_Element_in_Sorted_Array.md) | Medium |
+| 50 | [Pow(x, n) (缺iterative的解法)](notes/50_Pow_x_n.md) | Medium |
 | 53 | [Maximum Subarray](notes/53_Maximum_Subarray.md) | Easy |
 | 54 | [Spiral Matrix](notes/54_Spiral_Matrix.md) | Medium |
 | 55 | [Jump Game](notes/55_Jump_Game.md) | Medium |
@@ -27,4 +28,4 @@
 |227 | [Basic Calculator ii](notes/227_Basic_Calculator_2.md) | Medium |
 |238 | [Product of Array Except Self](notes/238_Product_of_Array_Except_Self.md) | Medium |
 |322 | [Coin Change](notes/322_Coin_Change.md) | Medium |
-| 324 | [Wiggle Sort 2](notes/324_WiggleSort2.md) | Medium |
+| 324 | [Wiggle Sort 2 （缺空间O(1)的第三步:virtual indexing）](notes/324_WiggleSort2.md) | Medium |
