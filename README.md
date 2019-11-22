@@ -8,6 +8,7 @@
 |:---  | :---  |:--- |
 | 2 | [Add Two Numbers](notes/2_Add_Two_Numbers.md) | Medium |
 |3 | [Longest Substring Without Repeating Characters](notes/3_LongestSubstringWithoutRepeatingCharacters.md) | Medium |
+| 5 | [Longest Palindromic Substring (Manacher's Algorithm _Incomplete_)](notes/5_LongestPalindromicSubstring.md) | Medium | 
 |19 | [Remove N-th Node From End of List](notes/19_Remove_Nth_Node_From_End_of_List.md) | Medium |
 | 34 | [First and Last Position of Element in Sorted Array](notes/34_First_and_Last_Position_of_Element_in_Sorted_Array.md) | Medium |
 | 50 | [Pow(x, n) (缺iterative的解法)](notes/50_Pow_x_n.md) | Medium |
