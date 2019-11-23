@@ -18,6 +18,8 @@
 | 56 | [Merge Intervals](notes/56_Merge_Intervals.md) | Medium |
 | 75 | [Sort Colors](notes/75_SortColors.md) | Medium |
 | 79 | [Word Search](notes/79_Word_Search.md) | Medium | 
+| 94 | [Binary Tree Inorder Traversal](notes/94_BinaryTreeInorderTraversal.md) | Medium | 
+| 98 | [Validate Binary Search Tree](notes/98_ValidateBinarySearchTree.md) | Medium | 
 | 121 | [Best Time to Buy and Sell Stock](notes/121_Best_Time_to_Buy_and_Sell_Stock.md) | Easy |
 | 138 | [Copy List with Random Pointer](notes/138_CopyListwithRandomPointer.md) | Medium |
 |139 | [Word Break](notes/139_Word_Break.md) | Medium |
