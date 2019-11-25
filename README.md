@@ -21,6 +21,7 @@
 | 94 | [Binary Tree Inorder Traversal](notes/94_BinaryTreeInorderTraversal.md) | Medium | 
 | 98 | [Validate Binary Search Tree](notes/98_ValidateBinarySearchTree.md) | Medium | 
 | 121 | [Best Time to Buy and Sell Stock](notes/121_Best_Time_to_Buy_and_Sell_Stock.md) | Easy |
+| 127 | [Word Ladder (<font color="red"> did not fully understand, need to do again </font>)](notes/127_WordLadder.md) | Medium |
 | 138 | [Copy List with Random Pointer](notes/138_CopyListwithRandomPointer.md) | Medium |
 |139 | [Word Break](notes/139_Word_Break.md) | Medium |
 |146 | [LRU Cache](notes/146_LRU_Cache.md) | Medium |
