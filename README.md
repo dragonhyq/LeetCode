@@ -22,11 +22,13 @@
 | 56 | [Merge Intervals](notes/56_Merge_Intervals.md) | Medium |
 | 75 | [Sort Colors](notes/75_SortColors.md) | Medium |
 | 79 | [Word Search](notes/79_Word_Search.md) | Medium | 
+| 91 | [Decode Ways](notes/91_DecodeWays.md) | Medium |
 | 94 | [Binary Tree Inorder Traversal](notes/94_BinaryTreeInorderTraversal.md) | Medium | 
 | 98 | [Validate Binary Search Tree](notes/98_ValidateBinarySearchTree.md) | Medium | 
 | 106 | [Construct Binary Tree from Inorder and Postorder Traversal](notes/106_ConstructBinaryTreefromInorderandPostorderTraversal.md) | Medium |
 | 121 | [Best Time to Buy and Sell Stock](notes/121_Best_Time_to_Buy_and_Sell_Stock.md) | Easy |
 | 127 | [Word Ladder (<font color="red"> did not fully understand, need to do again </font>)](notes/127_WordLadder.md) | Medium |
+| 130 | [Surrounded Regions](notes/130_SurroundedRegions.md) | Medium |
 | 138 | [Copy List with Random Pointer](notes/138_CopyListwithRandomPointer.md) | Medium |
 |139 | [Word Break](notes/139_Word_Break.md) | Medium |
 |146 | [LRU Cache](notes/146_LRU_Cache.md) | Medium |
