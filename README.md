@@ -34,6 +34,7 @@
 |146 | [LRU Cache](notes/146_LRU_Cache.md) | Medium |
 |150 | [Evaluate Reverse Polish Notation](notes/150_Evaluate_Reverse_Polish_Notation.md) | Medium |
 |155 | [Min Stack](notes/155_Min_Stack.md) | Easy |
+| 166 | [Fraction to Recurring Decimal](notes/166_FractiontoRecurringDecimal.md) | Medium |
 | 179 | [Largest Number](notes/179_LargestNumber.md) | Medium |
 |210 | [Course Schedule ii](notes/210_Course_Schedule_2.md) | Medium |
 | 215 | [Kth Largest Element in an Array](notes/215_KthLargestElementInAnArray.md) | Medium |
