@@ -44,3 +44,4 @@
 |238 | [Product of Array Except Self](notes/238_Product_of_Array_Except_Self.md) | Medium |
 |322 | [Coin Change](notes/322_Coin_Change.md) | Medium |
 | 324 | [Wiggle Sort 2 （缺空间O(1)的第三步:virtual indexing）](notes/324_WiggleSort2.md) | Medium |
+| 347 | [Top K Frequent Elements (lacking quick-select solution)](notes/347_TopKFrequentElements.md) | Medium | 
